@@ -1,0 +1,116 @@
+* {
+    /* background-image: url(https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80); */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80);
+    background-size: 1800px 750px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: reg(61, 107, 206);
+}
+
+.calc {
+    width: 240px;
+    height: 325px;
+    background-color: rgb(85, 87, 91);
+}
+
+.menu {
+    display: flex;
+    background-color: #373534;
+}
+
+.menu_item {
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; 
+}
+
+.menu_item:nth-child(1) {
+    background-color: #fc5b57;
+}
+
+.menu_item:nth-child(2) {
+    background-color: #e5bf3c;
+}
+
+.menu_item:nth-child(3) {
+    background-color: #57c038;
+}
+.input_info {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 36px;
+    text-align: right;
+    background-color: #373534;
+    border: none;
+    color: white;
+}
+.btn:hover {
+    border: 2px solid black;
+}
+.btnn:hover {
+    border: 2px solid black;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: flex;
+    height: 50px;
+    width: 60px;
+    border: 0.1px solid rgba(0, 0, 0, 0.537);
+    ;
+    justify-content: center;
+    align-items: center;
+    background-color: #686665;
+    font-size: 24px;
+    /* font-weight: lighter; */
+    color: #e2e4e9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.clear-btn {
+    width: 60px;
+    background-color: #4a4847;
+}
+
+.orange-btn {
+    background-color: #fd9e28;
+}
+.long-btn {
+    width: 120px;
+}
+.btnn {
+
+    display: flex;
+    height: 50px;
+    width: 60px;
+    border: 0.1px solid rgba(0, 0, 0, 0.537);
+    justify-content: center;
+    align-items: center;
+    background-color: #686665;
+    font-size: 24px;
+    /* font-weight: lighter; */
+    color: #e2e4e9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;        background-color: #4a4847;
+ }
